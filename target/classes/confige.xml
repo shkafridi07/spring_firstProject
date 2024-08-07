@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context
+                           http://www.springframework.org/schema/context/spring-context.xsd">
+<!--    this our bean-->
+
+<!--   <bean class="org.example.Student" name="student1">-->
+<!--        <property name="studentID" value="25345"/>-->
+<!--        <property name="name" value="afridi"/>-->
+
+<!--        <property name="address" value="raichur"/>-->
+<!--    </bean>-->
+    <bean class="org.example.Student" name="student2">
+        <property name="studentID" value="12435"/>
+        <property name="name" value="shubham"/>
+
+        <property name="address" value="delhi"/>
+        <property name="marks">
+            <list>
+                <value>
+                    5870
+                </value><value>
+                    10
+                </value><value>
+                    20
+                </value><value>
+                    90
+                </value><value>
+                    40
+                </value><value>
+                    50
+                </value><value>
+                    110
+                </value>
+            </list>
+        </property>
+    </bean>
+
+</beans>
