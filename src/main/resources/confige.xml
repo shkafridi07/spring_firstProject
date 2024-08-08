@@ -8,13 +8,13 @@
                            http://www.springframework.org/schema/context/spring-context.xsd">
 <!--    this our bean-->
 
-<!--   <bean class="org.example.Student" name="student1">-->
+<!--   <bean class="com.springcore.Student" name="student1">-->
 <!--        <property name="studentID" value="25345"/>-->
 <!--        <property name="name" value="afridi"/>-->
 
 <!--        <property name="address" value="raichur"/>-->
 <!--    </bean>-->
-    <bean class="org.example.Student" name="student2">
+    <bean class="com.springcore.Student" name="student2">
         <property name="studentID" value="12435"/>
         <property name="name" value="shubham"/>
 

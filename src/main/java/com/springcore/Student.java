@@ -1,4 +1,4 @@
-package org.example;
+package com.springcore;
 
 import java.util.List;
 
@@ -60,3 +60,4 @@ public class Student {
         this.marks = marks;
     }
 }
+
